@@ -10,11 +10,12 @@
 		<!-- enable csrf protection -->
 		<csrf disabled="true" />
 
-		<form-login username-parameter="j_username"
-			password-parameter="j_password" login-page="/plain/login.html"
-			always-use-default-target="true" authentication-failure-url="/plain/login.html?error=invalid_user" />
+		<form-login login-processing-url="/j_spring_security_check"
+			username-parameter="j_username" password-parameter="j_password"
+			login-page="/plain/login.html" always-use-default-target="true"
+			authentication-failure-url="/plain/login.html?error=invalid_user" />
 
-		<logout invalidate-session="true" logout-url="/logout"
+		<logout invalidate-session="true" logout-url="/j_spring_security_logout"
 			logout-success-url="/plain/login.html?loggedout=true" delete-cookies="JSESSIONID" />
 
 		<intercept-url pattern="/*/dashboard.html" access="isAuthenticated()" />

@@ -8,15 +8,19 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title><dec:title /></title>
 		
-		<style type='text/css'>
-	      /* Some CSS */
-	     body { font-family: arial, sans-serif; background-color: #ffffcc; }
-	     h1, h2, h3, h4 { text-align: center; background-color: #ccffcc;
-	                      border-top: 1px solid #66ff66; }
-	     .mainBody { padding: 10px; border: 1px solid #555555; }
-	     .disclaimer { text-align: center; border-top: 1px solid #cccccc;
-	                   margin-top: 40px; color: #666666; font-size: smaller; }
-	    </style>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="../_cdn/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../_cdn/css/bootstrap-theme.min.css" />
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="../_cdn/vendors/_css/style.css" />
+		
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
 	</head>
 	<body>
 	
