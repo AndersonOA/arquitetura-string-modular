@@ -2,7 +2,7 @@
 <html>
 
   <head>
-  	<meta http-equiv="refresh" content="0;url=plain/login.html">
+  	<meta http-equiv="refresh" content="0;url=page/dashboard.html">
   </head>
 
   <body>
